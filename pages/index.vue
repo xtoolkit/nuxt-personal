@@ -1,17 +1,15 @@
 <template>
   <div class="container">
     <div>
-      <logo />
+      <Logo />
       <h1 class="title">
-        nuxtjs
+        arshen-personal
       </h1>
-      <h2 class="subtitle">
-        My astonishing Nuxt.js project
-      </h2>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
+          rel="noopener noreferrer"
           class="button--green"
         >
           Documentation
@@ -19,6 +17,7 @@
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
+          rel="noopener noreferrer"
           class="button--grey"
         >
           GitHub
@@ -29,13 +28,7 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
+export default {}
 </script>
 
 <style>
